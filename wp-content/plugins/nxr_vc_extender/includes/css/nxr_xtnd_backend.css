@@ -1,0 +1,167 @@
+/*
+	THIS IS NOT FOR RELEASE
+	USE ONLY FOR EDIT
+	
+	Before release compress it with: http://refresh-sf.com/yui/
+	Put the compressed output to: nxr_xtnd_backend.min.css
+*/
+
+/*
+	Elements CSS - Backend area
+*/
+.nxr_blog_posts, .wpb_nxr_blog_posts > .wpb_element_wrapper {
+	background-image: url(../gfx/nxr-blog-posts.png) !important;
+}
+.nxr_content_box, .wpb_nxr_content_box > .wpb_element_wrapper {
+	background-image: url(../gfx/nxr-content-box.png) !important;
+}
+.nxr_counter, .wpb_nxr_counter > .wpb_element_wrapper {
+	background-image: url(../gfx/nxr-counter.png) !important;
+}
+.nxr_flip_card, .nxr_flipcard, .wpb_nxr_flip_card > .wpb_element_wrapper {
+	background-image: url(../gfx/nxr-flipcard.png) !important;
+}
+.nxr_icon_box, .wpb_nxr_icon_box > .wpb_element_wrapper {
+	background-image: url(../gfx/nxr-icon-box.png) !important;
+}
+.nxr_icon_text, .wpb_nxr_icontext > .wpb_element_wrapper {
+	background-image: url(../gfx/nxr-icon-text.png) !important;
+}
+.nxr_icon, .wpb_nxr_icon > .wpb_element_wrapper {
+	background-image: url(../gfx/nxr-icon.png) !important;
+}
+.nxr_pie_chart, .wpb_nxr_pie_chart > .wpb_element_wrapper {
+	background-image: url(../gfx/nxr-pie-chart.png) !important;
+}
+.wpb_nxr_pricing_tables.vc_shortcodes_container, .wpb_nxr_pricing_tables .wpb_content_element > .wpb_element_wrapper, .nxr_pricing_tables {
+	background-image: url(../gfx/nxr-pricing-tables.png) !important;
+}
+.wpb_nxr_team.vc_shortcodes_container, .wpb_nxr_team .wpb_content_element > .wpb_element_wrapper, .nxr_team {
+	background-image: url(../gfx/nxr-team.png) !important;
+}
+.nxr_gmap, .wpb_nxr_gmap > .wpb_element_wrapper{
+	background-image: url(../gfx/nxr-gmap.png) !important;
+}
+.nxr_zoom_box, .wpb_nxr_zoom_box > .wpb_element_wrapper{
+	background-image: url(../gfx/nxr-zoom-box.png) !important;
+}
+.nxr_button, .wpb_nxr_button > .wpb_element_wrapper{
+	background-image: url(../gfx/nxr-button.png) !important;
+}
+.nxr_progressbar, .wpb_nxr_progressbar > .wpb_element_wrapper{
+	background-image: url(../gfx/nxr-progress-bar.png) !important;
+}
+.wpb_nxr_accordion.vc_shortcodes_container, .wpb_nxr_accordion .wpb_content_element > .wpb_element_wrapper, .nxr_accordion {
+	background-image: url(../gfx/nxr-accordion.png) !important;
+}
+.wpb_nxr_logocarousel.vc_shortcodes_container, .wpb_nxr_logocarousel .wpb_content_element > .wpb_element_wrapper, .nxr_logocarousel{
+	background-image: url(../gfx/nxr-logocarousel.png) !important;
+}
+.nxr_advimage, .wpb_nxr_advimage > .wpb_element_wrapper{
+	background-image: url(../gfx/nxr-advanced-image.png) !important;
+}
+.nxr_mailchimpcollector, .wpb_nxr_mailchimpcollector > .wpb_element_wrapper{
+	background-image: url(../gfx/nxr-mailchimpcollector.png) !important;
+}
+.nxr_twitterfeed, .wpb_nxr_twitterfeed > .wpb_element_wrapper{
+	background-image: url(../gfx/nxr-twitterfeed.png) !important;
+}
+.wpb_element_wrapper {
+	background-repeat:no-repeat;
+}
+/*
+	Icon Browser Styles
+*/
+#nxr_xtnd_iconsearch {
+	margin-top:10px;
+	width: 100%;
+	height: 225px;
+	float: right;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	border: 1px solid #D3D1D1;
+	background-color: #F6F6F6;
+}
+.icons-display-screen {
+	width: 98.5%;
+	margin-top:6px;
+	margin-left:6px;
+}
+.icons-display-screen div.listyle {
+	text-align: center;
+	display: block;
+	float: left;
+	margin: 2px;
+	padding: 3px;
+	position: relative;
+	width: 38px;
+	height: 38px;
+	color: #A0A0A0 !important;
+	overflow: hidden;
+	border: 2px solid #EAEDF0;
+	border-radius: 3px;
+	background: none repeat scroll 0% 0% #FFF;
+}
+.icons-display-screen div.listyle:hover i {
+	z-index: 100;
+	zoom: 1.5;
+	font-size: 18px;
+	position: relative;
+	width: 38px;
+	line-height: 38px;
+	height: 38px;
+	display: block;
+	background: #89d8d5;
+	color: #000;
+	cursor: pointer;
+}
+.icons-display-screen div.listyle > i {
+	font-size: 18px;
+	vertical-align: text-bottom;
+	display: inline-block;
+	line-height: 38px;
+}
+.icons-display-screen div.selected {
+	border: 2px solid #89d8d5;
+	background: none repeat scroll 0% 0% #f6f9fc;
+}
+.searchicon {
+	width: 25% !important;
+	font-size: 13px;
+	line-height: 1.5em !important;
+	float:right;
+	vertical-align: middle;
+	margin-right: 15px;
+	padding: 5px 7px !important;
+}
+.filterSets {
+    width: 156px!important;
+    float: right;
+    height: 30px!important;
+    padding: 3px!important;
+	margin-right: 10px !important;
+}
+.iconpreview {
+	width: 370px;
+	height: 28px;
+	line-height: 24px;
+	font-size: 24px;
+	float: left;
+	text-align: left;
+	margin-top:0;
+	display: inline-block;
+	margin-right: 14px;
+}
+.iconpreview span {
+	font-size:18px;
+}
+.iconpreview > i {
+	font-size: 32px;
+	vertical-align: text-top;
+}
+.nxr-icon-set-name{
+	font-size:14px;
+	text-transform:capitalize;
+	cursor:pointer;
+	display:block;
+}

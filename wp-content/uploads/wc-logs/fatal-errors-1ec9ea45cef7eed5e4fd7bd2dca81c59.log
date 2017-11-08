@@ -1,0 +1,5 @@
+2017-11-01T17:01:18+00:00 CRITICAL Uncaught Error: Call to undefined function get_user_locale() in /Applications/MAMP/htdocs/NewEnglandAutomation/wp-admin/about.php:22
+Stack trace:
+#0 {main}
+  thrown
+

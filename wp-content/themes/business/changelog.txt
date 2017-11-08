@@ -1,0 +1,12 @@
+== Changelog ==
+
+= Version 1.0.2 (December 14, 2015) =
+	* Drag and Drop bug fix
+	* Updater script added
+
+= Version 1.0.1 (November 27, 2014) =
+	* Typo corrected
+	* Theme Options updated
+
+= Version 1.0 (October 27, 2014) =
+	* Initial release
